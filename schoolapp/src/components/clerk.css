@@ -1,0 +1,46 @@
+.dashboard {
+  display: flex;
+  height: 100vh;
+}
+  
+.sidebar {
+  width: 250px;
+  background: #2196f3;
+  color: #fff;
+  padding: 20px;
+}
+  
+.sidebar-header {
+  margin-bottom: 30px;
+}
+  
+.list-unstyled {
+  list-style-type: none;
+  padding: 0;
+}
+  
+.list-unstyled li {
+  margin-bottom: 10px;
+}
+  
+.list-unstyled a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+  
+.list-unstyled a:hover {
+  color: #ffeb3b;
+}
+  
+.content {
+  flex: 1;
+  padding: 20px;
+  background: #f4f4f4;
+}
+  
+.list-unstyled a svg {
+  margin-right: 10px; 
+}
+  

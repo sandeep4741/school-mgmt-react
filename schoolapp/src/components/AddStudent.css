@@ -1,0 +1,47 @@
+.form-group {
+display: flex;
+align-items: center;
+margin-bottom: 20px;
+}
+
+.form-group label {
+flex-basis: 30%; /* Adjust the label's width as needed */
+font-weight: bold;
+margin-right: 10px; /* Add spacing between label and input/select/textarea */
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+flex: 1; /* Expand the input/select/textarea to fill remaining space */
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+font-size: 16px;
+}
+/* AddStudent.css */
+.success-message {
+color: green;
+font-weight: bold;
+margin-top: 10px;
+}
+
+
+button {
+  display: block;
+  width: 100%;
+  margin: 20px auto; /* Center the button horizontally with top and bottom margin */
+  padding: 10px;
+  background-color: #2196f3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+
+.form-group button:hover {
+  background-color: #1565c0;
+}
